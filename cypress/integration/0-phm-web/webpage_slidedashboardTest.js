@@ -1,5 +1,5 @@
 describe('Pahamify Cypress', () => {
-    it('Visir Web-page Pahamify', () => {
+    it('Test slide dashboard', () => {
       //open page
       cy.visit('https://pahamify.com/')
       
