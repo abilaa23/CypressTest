@@ -1,5 +1,5 @@
 describe('Pahamify Cypress', () => {
-    it('Test Product menu dashboard', () => {
+    it('Get Whatsapp', () => {
       //open page
       cy.visit('https://pahamify.com/')
       
@@ -8,7 +8,7 @@ describe('Pahamify Cypress', () => {
       cy.wait(2000)
 
       //subbab product menu
-      cy.get('.nav-dropdown-content > :nth-child(1) > .dropbtn > .nav-title').click()
+      cy.get('.btn-sticky__link > .litespeed-loaded').click()
       cy.wait(2000)
       //
     })
